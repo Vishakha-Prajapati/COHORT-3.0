@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0b0b0b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width:90%;
+    height:90vh;
+    display:flex;
+   background-color: aliceblue;
+    overflow:hidden;
+    position:relative;
+    border: 28px solid white;
+}
+
+.left{
+    width:60%;
+    background:#FCC60C;
+    padding:40px 80px;
+    border-radius: 30px;
+}
+
+.right{
+    width:40%;
+    background:#f8efd0;
+    position:relative;
+}
+
+.logo{
+    width:170px;
+}
+
+.content{
+    margin-top:120px;
+}
+
+.small{
+    letter-spacing:8px;
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:120px;
+    font-weight:bold;
+}
+
+.desc{
+    width:450px;
+    line-height:1.8;
+    font-size:24px;
+    margin-top:20px;
+}
+
+.number{
+    margin-top:60px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.line{
+    width:60px;
+    height:3px;
+    background:black;
+}
+
+.menu{
+    position:absolute;
+    top:40px;
+    right:50px;
+    font-size:50px;
+   
+}
+
+.pikachu{
+  
+    position:absolute;
+    height:500px;
+    right:400px;
+    top:120px;
+}
+.circles{
+    position:absolute;
+    top:360px;
+    right:50px;
+    
+   
+}
+#yellow{
+    background-color: #ffd400;
+}
+.circle{
+   
+    width:20px;
+    height:20px;
+    background:#060606;
+    border-radius:50%;
+    margin-bottom: 25px;
+  
+     
+   
+}
