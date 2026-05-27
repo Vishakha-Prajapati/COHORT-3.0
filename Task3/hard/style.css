@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+    width: 100%;
+    background-color: #02080D;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 0 15px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logoimg {
+
+    height: 60px;
+}
+
+.navi {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    gap: 30px;
+}
+
+.digitalbtn {
+    padding: 1.2em;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #0BAE94;
+    color: white;
+
+}
+
+
+
+.sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 800px;
+
+}
+
+.one1,
+.one2,
+.one3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    width: 800px;
+
+    gap: 20px;
+}
+
+.one h3 {
+    color: #0BAE94;
+    font-size: 2em;
+    padding: 10px;
+
+}
+
+.one h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 7vw;
+    line-height: 6vw;
+
+}
+
+.white {
+    color: white;
+
+}
+
+.hunt {
+    color: #0BAE94;
+    padding-bottom: 10px;
+
+}
+
+.one h4 {
+    padding-bottom: 10px;
+    color: rgb(165, 167, 170);
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.one p {
+    color: rgb(165, 167, 170);
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+.two {
+    height: 800px;
+    width: 800px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    height: 800px;
+    width: 800px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeimg {
+    height: 30em;
+}
+
+.buttons {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    padding: 2rem 1rem;
+    color: white;
+}
+
+.monstbtn {
+    padding: 1.2em;
+    font-size: 1.2em;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #0BAE94;
+    color: white;
+
+}
+
+.digibtn {
+    padding: 1.2em;
+    font-size: 1.2em;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #0BAE94;
+    color: white;
+}
+
+
+
+.sec2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+    width: 95%;
+    background: linear-gradient(90deg, #071018 0%, #0a1f2b 20%, #0f3a46 50%, #0a1f2b 80%, #071018 100%);
+    border: 1px solid rgba(103, 246, 255, 0.08);
+    border-radius: 25px;
+    box-shadow: inset 0 0 40px rgba(0, 255, 255, 0.08), 0 0 30px rgba(33, 39, 39, 0.06);
+    backdrop-filter: blur(10px);
+}
+
+.center {
+    color: #0BAE94;
+
+}
+
+.star1 {
+    height: 190px;
+    width: 190px;
+}
+
+.star2 {
+    height: 190px;
+    width: 190px;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.sec4 {
+   
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.carddata{
+    padding: 10px;
+}
+.card {
+    height: 450px;
+    width: 400px;
+    border: #7e8282 1px solid;
+    border-radius: 25px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+         
+}
+
+
+.cardimg img {
+    width: 400px;
+    height: 225px;
+    border-radius: 25px 25px 0 0;
+    z-index: -1;
+}
+.cardtext{
+      color: rgb(165, 167, 170);
+    font-weight: 400;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+.cardbtn{
+    width: 50%;
+    padding: 0.9em;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid #0BAE94;
+    color: #0BAE94;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how{
+       font-family: 'Orbitron', sans-serif;
+       font-size:3em ;
+       font-weight: 700;
+}
+.sec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+      padding: 0 1rem 2rem 0;  
+}
+
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    width: 450px;
+    border: #5c6060 solid 0.6px;
+    border-radius: 25px;
+    color: white;
+    justify-content: center;
+    padding: 1rem 0;
+    gap: 30px;
+    
+}
+.card1img{
+  
+    height: 150px;
+    width: 150px;
+    border: #0BAE94 solid 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1img img{
+     height: 110px;
+    width: 120px;
+    border-radius: 50%;
+}
+.card1text{
+    
+ font-family: 'Orbitron', sans-serif;
+}
+.card1text h1{
+    color: #0BAE94;
+    font-size: 2em;
+}
+
+.card1text h2{
+       color: rgb(165, 167, 170);
+    font-weight: 400;
+    font-size: 1.8em;
+    padding-bottom: 20px;
+}
+.card1text p{
+       color: rgb(73, 75, 78);
+   
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    padding-top: 30px;
+    background-color: rgb(195, 201, 20);
+    width: 100%;
+    height: 330px;
+    background-image: url('foot-img.webp');
+    color: aliceblue;
+       display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+
+}
+
+
+.logo2{
+    height: 70px;
+}
+.five p{
+    padding: 2rem;
+      font-size: 1.3vw;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+        color: rgb(73, 75, 78);
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+      gap: 10px;
+}
+.card1imgs{
+  
+    height: 80px;
+    width: 80px;
+    border: #0BAE94 solid 2px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card1imgs img{
+     height: 50px;
+    width: 50px;
+    border-radius: 50%;
+   
+}
+
+.six p{
+      padding: 1rem;
+      font-size: 1.3vw;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+        color: rgb(73, 75, 78);
+        border-left: 1px solid white;
+
+}
+.sec6{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* gap: 60px; */
+    align-items: center;
+      color: rgb(73, 75, 78);
+         font-size: 1.3vw;
+      
+
+}
+.line{
+    padding:  1em;
+    border-right: 1px solid rgb(130, 130, 130);
+
+}

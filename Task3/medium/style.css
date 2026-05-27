@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    background-image: url('blurred.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    color: white;
+    padding: 20px;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 160px;
+}
+
+.tittle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     color: white;
+        height: 50vh;
+        
+     position: relative;
+     
+         
+}
+.top{
+ position: relative;
+right: 70%;
+
+}
+.text1{
+    font-family: 'Orbitron', sans-serif;
+        font-size: 60px;
+font-weight: 700;
+letter-spacing: 5px;
+}
+.bottom{
+     position: relative;
+left:70%;
+}
+.monkey{
+    height: 480px;
+}
+.image2
+{
+    position: absolute;
+    left: 40.5%;
+    top: 25%;
+}
+
+ .vision{
+    position: relative;
+    top: 120px;
+
+    background-color: #2b2337;
+
+    min-height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+   
+
+}
+.last {
+    height: 40px;
+    width: 40%;
+   
+}
+.textbox{
+
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    gap: 20px;
+}
