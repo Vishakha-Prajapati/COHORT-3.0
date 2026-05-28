@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:black;
+    overflow:hidden;
+    font-family:sans-serif;
+}
+
+main{
+    min-height:100vh;
+    display:grid;
+   
+grid-template-columns: 1.05fr 1.05fr 0.95fr 1.2fr;
+  grid-template-rows: 10% calc(30% - 20px) 30% 10% calc(20% - 30px);
+    grid-template-areas:
+    "topright topcenter1 topcenter2 topleft"
+    "topright topcenter1 topcenter2 leftcenter"
+    "bottomright centre topcenter2 leftcenter"
+    "bottomright center1 bottomleft bottomleft"
+    "bottomright bottomcenter1 bottomleft bottomleft";
+
+    gap:1rem;
+    padding:1rem;
+}
+
+
+
+main div{
+    border-radius:30px;
+    overflow:hidden;
+}
+
+.topright{
+    background:rgb(232, 96, 255);
+    grid-area:topright;
+}
+
+.purple img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+/* CIRCLE SECTION */
+
+.topcenter1{
+    background:aquamarine;
+    grid-area:topcenter1;
+}
+.circle{
+    img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+}
+
+
+/* MENU SECTION */
+
+.topcenter2{
+    background:blue;
+    grid-area:topcenter2;
+}
+
+/* SMALL TOP CARD */
+
+.topleft{
+    background:chartreuse;
+    grid-area:topleft;
+}
+
+/* BIG LEFT CARD */
+
+.bottomright{
+    background:chocolate;
+    grid-area:bottomright;
+}
+
+/* CENTER CARD */
+
+.centre{
+    background:crimson;
+    grid-area:centre;
+}
+
+/* RIGHT IMAGE */
+
+.leftcenter{
+    background:cyan;
+    grid-area:leftcenter;
+}
+
+/* AWARD SECTION */
+
+.center1{
+    background:darkgreen;
+    grid-area:center1;
+}
+
+/* QR SECTION */
+
+.bottomcenter1{
+    background:darkgray;
+    grid-area:bottomcenter1;
+}
+
+/* BIG REVIEW CARD */
+
+.bottomleft{
+    background:darkmagenta;
+    grid-area:bottomleft;
+}
